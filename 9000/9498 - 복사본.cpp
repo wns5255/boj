@@ -7,7 +7,7 @@ int main(){
     if(-10000<=a&&a<=10000&&-10000<=b&&b<=10000)
     {
     if(a>b) cout << ">";
-    else if(a<=b) cout << "<";
+    else if(a<b) cout << "<";
     else cout << "==";
     }
     return 0;
